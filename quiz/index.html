@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>QuizX!</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <div class="page" id="input">
+        <label for="quizxcode">QuizX quiz!</label><br>
+        <button id="useTemp">Use template quiz!</button><br>
+
+        <input id="quizxcode" name="quizxcode"><br>
+        <button id="subBtn">Submit!</button>
+    </div>
+    <div class="page hidden" id="questionPage">
+        <h1 id="question"></h1>
+    </div>
+    <div class="page hidden" id="answerPage">
+        <h1 id="time"></h1>
+        <button class="btn" id="btn1"></button><button class="btn" id="btn3"></button>
+        <button class="btn" id="btn2"></button><button class="btn" id="btn4"></button>
+    </div>
+    <div class="page hidden" id="correctPage">
+        <h1 id="msg"></h1>
+    </div>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
